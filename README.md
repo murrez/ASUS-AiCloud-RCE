@@ -41,7 +41,8 @@ Ayrıntılı istek gövdeleri, yük varyantları ve üretim ortamında kullanım
 | `-no-skip` | Daha önce işaretlenmiş hostları atlama |
 
 Pozisyonel argümanlar: `manual`, `no-skip`, `multiport`, `tls`, `debug` (kaynakta `main` içinde işlenir).
-zmap -p 443 | ./origasus
+
+Zmap ile ortak çalıştırma : zmap -p 443 | ./origasus
 
 ## Ortam değişkenleri
 
