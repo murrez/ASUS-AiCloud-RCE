@@ -39,7 +39,7 @@ Ayrıntılı istek gövdeleri, yük varyantları ve üretim ortamında kullanım
 | `-f` | Girdi dosyası (`-` veya boş: stdin) |
 | `-exploited` | İşlenmiş hostları tutan dosya (varsayılan: `exploited.txt`) |
 | `-no-skip` | Daha önce işaretlenmiş hostları atlama |
-| `zmap entegre` | zmap -p 443 | ./origasus |
+| `zmap entegre zmap -p 443 | ./origasus` |
 
 Pozisyonel argümanlar: `manual`, `no-skip`, `multiport`, `tls`, `debug` (kaynakta `main` içinde işlenir).
 
